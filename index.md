@@ -16,3 +16,6 @@ You can find info about me and my work below.
   The source code for this website!
 - [telegram-drillbot](https://github.com/davidtorosyan/telegram-drillbot)  
   A framework for a [Telegram](https://telegram.org/) based chatbot.
+- [ti84-entertainment](https://github.com/davidtorosyan/ti84-entertainment)  
+  A collection of TI-84 programs.
+  
