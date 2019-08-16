@@ -8,13 +8,13 @@ My name's David Torosyan, and I'm a software engineer.
 You can find info about me and my work below.
 
 ### Online Presence
-- [GitHub](https://github.com/davidtorosyan)
-- [LinkedIn](https://www.linkedin.com/in/david-torosyan)
+- [GitHub](https://github.com/davidtorosyan){:target="_blank"}
+- [LinkedIn](https://www.linkedin.com/in/david-torosyan){:target="_blank"}
 
 ### Repositories
-- [telegram-drillbot](https://github.com/davidtorosyan/telegram-drillbot)  
-  A framework for a [Telegram](https://telegram.org/) based chatbot.
-- [ti84-entertainment](https://github.com/davidtorosyan/ti84-entertainment)  
+- [telegram-drillbot](https://github.com/davidtorosyan/telegram-drillbot){:target="_blank"}  
+  A framework for a [Telegram](https://telegram.org/){:target="_blank"} based chatbot.
+- [ti84-entertainment](https://github.com/davidtorosyan/ti84-entertainment){:target="_blank"}  
   A collection of TI-84 programs.
 
 ### Projects
