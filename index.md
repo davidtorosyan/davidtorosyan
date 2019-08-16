@@ -1,5 +1,5 @@
 ---
-title: David Torosyan's Portfolio
+title: portfolio
 ---
 
 ## Welcome to my portfolio
