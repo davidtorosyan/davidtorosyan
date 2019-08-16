@@ -16,7 +16,9 @@
     <div class="wrapper">
       <header>
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
-        <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
+        {% if site.hide_description != true %}
+          <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
+        {% endif %}
 
         <ul>
           {% if site.show_downloads %}
