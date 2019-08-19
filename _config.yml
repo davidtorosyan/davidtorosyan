@@ -4,3 +4,5 @@ github:
   is_project_page: false
   is_user_page: true
 hide_description: true
+sass:
+  sass_dir: assets/css

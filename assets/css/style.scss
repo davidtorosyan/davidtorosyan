@@ -1,0 +1,59 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+a {
+    font-weight: normal;
+}
+
+button {
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background-color: #FBFAF7;
+    margin: 0;
+    line-height: 1.8em;
+    -webkit-font-smoothing: antialiased;
+    color: black;
+}
+
+nav {
+    float: right;
+    ul {
+        list-style-type: none;
+    }
+    li {
+        float: left;
+        position: relative;
+        margin-left: 20px;
+        line-height: 30px;
+    }
+    .dropdown-link {
+        color: maroon;
+        font-weight: bold;
+    }
+    button.dropdown-link {
+        border: none;
+        padding: 0px;
+        &:focus {
+            outline: none;
+        }
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: #FBFAF7;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        padding-left: 0px;
+        border-radius: 5px;
+        margin-left: -5px;
+        min-width: 80px;
+        li {
+            margin: 5px;
+        }
+    }
+}
