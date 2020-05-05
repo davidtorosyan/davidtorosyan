@@ -6,3 +6,4 @@ github:
 hide_description: true
 sass:
   sass_dir: assets/css
+profile: assets/img/profile.jpg

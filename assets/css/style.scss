@@ -57,3 +57,38 @@ nav {
         }
     }
 }
+
+.img-responsive { 
+    width: 147px; 
+    border-radius: 50%; 
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    position: static;
+}
+
+.split-header {
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media print, screen and (max-width: 960px) {
+  .img-responsive { 
+        width: 100px; 
+        position: absolute;
+        right: 300px;
+        top: 60px;
+    }
+}
+
+@media print, screen and (max-width: 720px) { 
+    .img-responsive { 
+        width: 80px;
+        margin-left: 10px;
+        position: static;
+    }
+    .split-header.profile {
+        margin-right: -20px;
+    }
+}
