@@ -7,3 +7,6 @@ hide_description: true
 sass:
   sass_dir: assets/css
 profile: assets/img/profile.jpg
+hide_footer: true
+linkedin:
+  url: https://www.linkedin.com/in/davidtorosyan/

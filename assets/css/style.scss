@@ -3,18 +3,77 @@
 
 @import "{{ site.theme }}";
 
+@font-face {
+    font-family: 'Nunito';
+    src: url(../fonts/Nunito-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url(../fonts/Nunito-ExtraLight.ttf) format('truetype');
+    font-weight: 200;
+}
+
+section {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background-color: #24292e;
+    padding: 0px;
+}
+
+body, h1.header, h2, h3, .buttons, button {
+    font-family:-apple-system,"Nunito", sans-serif;
+}
+
+.buttons {
+    font-size: 14px;
+}
+
 a {
     font-weight: normal;
+    color: #0366d6;
+}
+
+h2, h3 {
+    color: #0366d6;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+header li {
+    background: linear-gradient(to top, #4588d4 0%, #0366d6 100%);
+    box-shadow: inset 0px 1px 1px 0 #0366d6;
+}
+
+header li:hover {
+    background: linear-gradient(to top, #0366d6 0%, #0366d6 100%);
 }
 
 button {
-    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    background-color: #FBFAF7;
+    font-size: 16px;
+    background-color: white;
     margin: 0;
     line-height: 1.8em;
     -webkit-font-smoothing: antialiased;
     color: black;
+}
+
+a.linkedin {
+    background: url(../img/linkedin-16.png) no-repeat 1px;
 }
 
 nav {
@@ -29,8 +88,7 @@ nav {
         line-height: 30px;
     }
     .dropdown-link {
-        color: maroon;
-        font-weight: bold;
+        color: #0366d6;
     }
     button.dropdown-link {
         border: none;
@@ -45,16 +103,26 @@ nav {
     .dropdown-menu {
         display: none;
         position: absolute;
-        background-color: #FBFAF7;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        background-color: #171717;
         z-index: 1;
         padding-left: 0px;
-        border-radius: 5px;
-        margin-left: -5px;
         min-width: 80px;
-        li {
-            margin: 5px;
+        a {
+            color: #f1f8ff;
         }
+        li {
+            border-top: 1px solid #0366d6;
+            width: 100%;
+            margin: 0px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        li:first-child {
+            border-top: 0;
+        }
+        border-style: solid;
+        border-width: 1px;
+        right: 0px;
     }
 }
 
@@ -73,22 +141,39 @@ nav {
     vertical-align: top;
 }
 
+header ul {
+    position: static;
+}
+
 @media print, screen and (max-width: 960px) {
-  .img-responsive { 
+    header {
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .img-responsive { 
         width: 100px; 
         position: absolute;
-        right: 300px;
-        top: 60px;
+        right: 190px;
+        top: 20px;
+    }
+    .split-header.external {
+        position: absolute;
+        top: 31px;
+        right: 20px;
     }
 }
 
 @media print, screen and (max-width: 720px) { 
     .img-responsive { 
-        width: 80px;
-        margin-left: 10px;
-        position: static;
+        width: 80px; 
+        position: absolute;
+        right: 25px;
+        top: 62px;
     }
     .split-header.profile {
         margin-right: -20px;
+    }
+    .split-header.external {
+        position: static;
     }
 }
