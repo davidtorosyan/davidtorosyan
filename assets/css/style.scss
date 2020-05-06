@@ -210,12 +210,18 @@ header ul {
     position: static;
 }
 
+header {
+    height: auto;
+    overflow: hidden;
+}
+
 @media print, screen and (max-width: 960px) {
     header {
         margin-top: 0px;
         margin-right: 0px;
         border-top: none;
         border-right: none;
+        height: 82px;
     }
     section {
         border: none;
@@ -234,6 +240,9 @@ header ul {
 }
 
 @media print, screen and (max-width: 720px) { 
+    header {
+        height: 156px;
+    }
     .img-responsive { 
         width: 80px; 
         position: absolute;
