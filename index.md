@@ -1,11 +1,11 @@
 ---
-title: portfolio
+title: david torosyan
 ---
 
 ## Welcome to my portfolio
 
 I'm David Torosyan, a software engineer.  
-You can find my work below.
+You can find some of my work below.
 
 ### Projects
 - [Riddles](/riddles)  
