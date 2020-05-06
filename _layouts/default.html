@@ -69,6 +69,10 @@
       </footer>
     {% endif %}
   </div>
+  <script>
+    // sticky hover fix in iOS
+    (function(l){var i,s={touchend:function(){}};for(i in s)l.addEventListener(i,s)})(document);
+  </script>
   <!--[if !IE]><script>fixScale(document);</script><![endif]-->
   {% if site.google_analytics %}
   <script>
