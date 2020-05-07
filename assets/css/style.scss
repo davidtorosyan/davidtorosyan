@@ -20,6 +20,7 @@ $color-accent-dark: #0366d6;
 $color-accent-light: #83bcfe;
 
 $font-family: -apple-system,"Nunito", sans-serif;
+$font-size: 18px;
 
 //
 // Fonts
@@ -45,7 +46,7 @@ body {
     background-color: $color-backdrop;
     color: $color-foreground-light;
     font-family:$font-family;
-    font-size: 16px;
+    font-size: $font-size;
     font-weight: 300;
     padding: 0px;
 }
@@ -89,7 +90,7 @@ h3 {
     color: $color-accent-light;
     border-bottom: 1px solid $color-foreground-light;
     font-family:$font-family;  
-    font-size: 18px;
+    font-size: 20px;
 }
 
 a.header, a.name, header a {
@@ -113,6 +114,7 @@ a {
 header li {
     background: $color-accent-dark;
     box-shadow: inset 0px 1px 1px 0 $color-accent-dark;
+    font-size: 16px;
 }
 
 header li:hover {
@@ -123,7 +125,7 @@ header li:hover {
 button {
     background-color: $color-background-dark;
     color: black;
-    font-size: 16px;
+    font-size: $font-size;
     margin: 0;
     line-height: 1.8em;
     -webkit-font-smoothing: antialiased;
