@@ -7,10 +7,6 @@
 // Variables
 //
 
-// light theme, unused
-// $color-background-light: white;
-// $color-foreground-dark: #232323;
-
 $color-background-dark: #171717;
 $color-foreground-light: #e2efff;
 
@@ -133,60 +129,6 @@ button {
 
 a.linkedin {
     background: url(../img/linkedin-16.png) no-repeat 1px;
-}
-
-//
-// nav bar
-//
-
-nav {
-    float: right;
-    ul {
-        list-style-type: none;
-    }
-    li {
-        float: left;
-        position: relative;
-        margin-left: 20px;
-        line-height: 30px;
-    }
-    .dropdown-link {
-        color: $color-accent-light;
-    }
-    button.dropdown-link {
-        border: none;
-        padding: 0px;
-        &:focus {
-            outline: none;
-        }
-    }
-    .dropdown:hover .dropdown-menu {
-        display: block;
-    }
-    .dropdown-menu {
-        display: none;
-        position: absolute;
-        background-color: $color-background-dark;
-        z-index: 1;
-        padding-left: 0px;
-        min-width: 80px;
-        a {
-            color: $color-accent-light;
-        }
-        li {
-            border-top: 1px solid $color-accent-light;
-            width: 100%;
-            margin: 0px;
-            padding: 5px;
-            box-sizing: border-box;
-        }
-        li:first-child {
-            border-top: 0;
-        }
-        border-style: solid;
-        border-width: 1px;
-        right: 0px;
-    }
 }
 
 //

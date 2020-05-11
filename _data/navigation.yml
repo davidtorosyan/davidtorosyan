@@ -1,8 +1,0 @@
-- title: Home
-  url: /
-- title: Projects
-  sublinks:
-    - title: TI-JS
-      url: /ti-js
-    - title: Riddles
-      url: /riddles

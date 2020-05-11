@@ -8,9 +8,9 @@ I'm David Torosyan, a software engineer.
 You can find some of my work below.
 
 ### Projects
-- [TI-JS](/ti-js)  
+- [TI-JS](/ti-js){:target="_blank"}  
   a TI-Basic interpreter written in JavaScript.
-- [Riddles](/riddles)  
+- [Riddles](/riddles){:target="_blank"}  
   some riddles that I've enjoyed working on.
 
 ### Repositories
