@@ -14,7 +14,9 @@ You can find some of my work below.
   some riddles that I've enjoyed working on.
 
 ### Repositories
+- [command.games](https://github.com/davidtorosyan/command.games){:target="_blank"}  
+  browser extension to add a randomizer to [dominion.games](https://dominion.games/){:target="_blank"}.
 - [telegram-drillbot](https://github.com/davidtorosyan/telegram-drillbot){:target="_blank"}  
-  a framework for a [Telegram](https://telegram.org/){:target="_blank"} based chatbot.
+  framework for a [Telegram](https://telegram.org/){:target="_blank"} based chatbot.
 - [ti84-entertainment](https://github.com/davidtorosyan/ti84-entertainment){:target="_blank"}  
-  a collection of TI-84 programs.
+  collection of TI-84 programs.
